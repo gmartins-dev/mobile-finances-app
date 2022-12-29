@@ -3,8 +3,6 @@
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
-  "tsxBracketSameLine": false,
-  "tsxSingleQuote": false,
   "quoteProps": "as-needed",
   "singleQuote": true,
   "semi": true,
