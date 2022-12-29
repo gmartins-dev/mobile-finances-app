@@ -9,19 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.24.1",
-    "eslint-plugin-n": "^15.6.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.31.11",
-    "expo": "^46.0.19",
+    "expo": "^47.0.9",
     "expo-status-bar": "~1.4.2",
+    "moti": "^0.21.0",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-reanimated": "~2.12.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "eslint": "^8.30.0",
-    "eslint-plugin-react-native": "^4.0.0"
+    "@babel/core": "^7.12.9"
   },
   "private": true
 }
