@@ -7,7 +7,9 @@ export default function Movements({ data }) {
       <Text style={styles.date}>{data.date}</Text>
       <View style={styles.content}>
         <Text style={styles.label}>{data.label}</Text>
-        <Text style={styles.value}>{data.value}</Text>
+        <Text style={data.type === 1 ? styles.value : styles.expenses}>
+          {data.type === 1 ? `£ ${data.value}` : `£ -${data.value}`}
+        </Text>
       </View>
     </TouchableOpacity>
   );
@@ -35,4 +37,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   value: { color: '#2ecc71', fontWeight: 'bold', fontSize: 16 },
+  expenses: { color: '#e74c3c', fontWeight: 'bold', fontSize: 16 },
 });
