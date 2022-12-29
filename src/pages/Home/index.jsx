@@ -1,8 +1,9 @@
 // @ts-nocheck
-import { StyleSheet, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, View } from 'react-native';
 
 import Balance from '../../components/Balance';
 import Header from '../../components/Header';
+import Movements from '../../components/Movements';
 
 const mockList = [
   {
@@ -34,6 +35,14 @@ export default function Home() {
       <Header username="Nome Teste" />
       <Balance balance="10.000,00" expenses="-555,03" />
       <Text style={styles.title}>Last records</Text>
+
+      <FlatList
+        data={mockList}
+        style={styles.list}
+        keyExtractor={(item) => String(item.id)}
+        showsVerticalScrollIndicator={false}
+        renderItem={({ item }) => <Movements data={item} />}
+      />
     </View>
   );
 }
@@ -49,5 +58,9 @@ const styles = StyleSheet.create({
     marginLeft: 14,
     marginRight: 14,
     marginTop: 14,
+  },
+  list: {
+    marginStart: 14,
+    marginEnd: 14,
   },
 });
