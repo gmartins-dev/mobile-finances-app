@@ -4,11 +4,11 @@ import { StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-nativ
 
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 
-export default function Header() {
+export default function Header({ username }) {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <Text style={styles.username}>Usernameeee</Text>
+        <Text style={styles.username}>{username}</Text>
         <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
           <Feather name="user" size={27} color="#FFF" />
         </TouchableOpacity>
@@ -20,7 +20,7 @@ export default function Header() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#8000FF',
-    PaddingTop: statusBarHeight,
+    paddingTop: statusBarHeight,
     flexDirection: 'row',
     paddingStart: 16,
     paddingEnd: 16,
@@ -32,7 +32,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  username: { fontSize: 18, color: '#FFF', fontWeight: 'bold' },
+  username: {
+    fontSize: 18,
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
   buttonUser: {
     width: 44,
     height: 44,
