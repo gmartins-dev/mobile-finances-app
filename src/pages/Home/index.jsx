@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 
+import Actions from '../../components/Actions';
 import Balance from '../../components/Balance';
 import Header from '../../components/Header';
 import Movements from '../../components/Movements';
@@ -35,7 +36,7 @@ export default function Home() {
       <Header username="Nome Teste" />
       <Balance balance="10.000,00" expenses="-555,03" />
       <Text style={styles.title}>Last records</Text>
-
+      <Actions />
       <FlatList
         data={mockList}
         style={styles.list}
