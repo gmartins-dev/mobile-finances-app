@@ -31,8 +31,8 @@ React Native Bank/Finance App for iOS and Android using Moti and React Native Re
 This project was developed with the following technologies:
 
   <img  align="center"  alt="JavaScript"  height="30"  width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> **JavaScript**
-  
-    <img  align="center"  alt="TypeScript"  height="30"  width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg> **TypeScript**
+
+    <img  align="center"  alt="TypeScript"  height="30"  width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"> **TypeScript**
   
   <img  align="center"  alt="React Native"  height="30"  width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> **React Native**
 
