@@ -19,7 +19,7 @@ const mockList = [
     label: 'Salary payment',
     value: '3210,55',
     date: '15/09/2022',
-    type: 1, //type 1 = entrances?
+    type: 1, //type 1 = incomes
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const mockList = [
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Header username="Nome Teste" />
+      <Header username="Guilherme Martins" />
       <Balance balance="10.000,00" expenses="-555,03" />
       <Text style={styles.title}>Last records</Text>
       <Actions />

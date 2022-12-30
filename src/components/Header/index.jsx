@@ -32,7 +32,7 @@ export default function Header({ username }) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#8000FF',
+    backgroundColor: '#003060',
     paddingTop: statusBarHeight,
     flexDirection: 'row',
     paddingStart: 16,
