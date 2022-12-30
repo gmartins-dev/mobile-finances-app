@@ -57,7 +57,6 @@ This project used the following libraries:
 
 ## 💻 Demonstration
 
-</br>
 <p  align="center">
   <kbd>
 <img width="615" style="border-radius: 5px" height="400" src="https://images2.imgbox.com/29/5e/svVs4bWC_o.gif" alt="">
