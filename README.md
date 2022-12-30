@@ -9,3 +9,16 @@ what is the best AVD to mobile development?
 
 
 cd ~/Android/Sdk/emulator && ./emulator -avd Pixel_3_API_29
+
+
+#FF7A00 principal
+
+#FF9319 hover
+
+#161616 fonts
+
+#F5F6FA cinza claro
+
+#EB7000 laranja mais escuro para destaques
+
+rgb(255, 180, 110) fonte transparente
