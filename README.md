@@ -54,7 +54,7 @@ This project used the following libraries:
 
 <p  align="center">
   <kbd>
-<img width="615" style="border-radius: 5px" height="600" src="https://images2.imgbox.com/29/5e/svVs4bWC_o.gif" alt="">
+<img width="615" style="border-radius: 5px" height="400" src="https://images2.imgbox.com/29/5e/svVs4bWC_o.gif" alt="">
 </kbd>
 </p>
 
