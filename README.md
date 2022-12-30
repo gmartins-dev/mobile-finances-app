@@ -24,6 +24,8 @@
 
 React Native Bank/Finance App for iOS and Android using Moti and React Native Reanimated.
 
+</br>
+
 
 
 ## 🛠 Technologies
@@ -50,6 +52,8 @@ This project used the following libraries:
 
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
 
+</br>
+
 
 ## 💻 Demonstration
 
@@ -69,7 +73,7 @@ This project used the following libraries:
 </kbd>
 </p>
 
-
+</br>
 
 ## 🚀 How to run
 
@@ -109,6 +113,7 @@ $ expo start
 
 ```
 
+</br>
 
 ## 📝 License
 
